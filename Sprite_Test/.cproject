@@ -27,7 +27,7 @@
 								<option id="gnu.cpp.compiler.option.dialect.flags.874835977" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=c++1z" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.other.other.1914387731" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-attributes" valueType="string"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.631850454" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;D:\fw\SFML-2.4.1\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\CMakeInstallPrefix\include&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.other.verbose.960166333" name="Verbose (-v)" superClass="gnu.cpp.compiler.option.other.verbose" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="gnu.cpp.compiler.option.dialect.std.1218119765" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
@@ -44,12 +44,12 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.1439489557" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.834421770" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug">
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.userobjs.1464879773" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false" valueType="userObjs">
-									<listOptionValue builtIn="false" value="&quot;D:\fw\SFML-2.4.1\lib\libsfml-main.a&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\fw\SFML-2.4.1\lib\libsfml-system.a&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\fw\SFML-2.4.1\lib\libsfml-window.a&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\fw\SFML-2.4.1\lib\libsfml-graphics.a&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\fw\SFML-2.4.1\lib\libsfml-audio.a&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\fw\SFML-2.4.1\lib\libsfml-network.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\CMakeInstallPrefix\lib\libsfml-audio.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\CMakeInstallPrefix\lib\libsfml-graphics.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\CMakeInstallPrefix\lib\libsfml-main.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\CMakeInstallPrefix\lib\libsfml-network.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\CMakeInstallPrefix\lib\libsfml-system.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\CMakeInstallPrefix\lib\libsfml-window.a&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1850155358" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
